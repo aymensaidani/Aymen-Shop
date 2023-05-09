@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aymen Shop</title>
+    <!-- Link the file Css -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Link jquery-->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!--this font for the logo -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <!--Start Navbar-->
+      <div class="navbar">
+        <img class="log" src="/images/logo.png" alt="" />
+
+        <a href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
+        <a href="shope.html"><i class="fa fa-shopping-bag"></i> Shop</a>
+      </div>
+
+      <!--End Navbar-->
+    </header>
+
+    <!--The button Make you filter of the type clothes you want-->
+
+    <button id="btnall" class="button">All</button>
+    <button id="btnshoes" class="button">Shoes</button>
+    <button id="btntshirt" class="button">T-shirt</button>
+    <button id="btnshort" class="button">Short</button>
+
+    <!--Search bar make you to search the clothes you went with the name of product-->
+
+    <div class="searchbar">
+      <form>
+        <input
+          id="inpute"
+          type="text"
+          onkeyup="searchee()"
+          placeholder="Search with name of youre clothes......"
+          name="search"
+        />
+      </form>
+    </div>
+
+    <!-- all the clothes it will be in this div-->
+    <div class="kolhom" id="ijalena"></div>
+
+    <!-- Link file javascript-->
+    <script src="main.js"></script>
+  </body>
+</html>

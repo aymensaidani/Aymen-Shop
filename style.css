@@ -1,0 +1,131 @@
+/*** style the navbar  ****/
+
+body {
+  background-color: aliceblue;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color: #000;
+}
+
+.log {
+  width: 50px;
+  float: left;
+}
+
+/****style search bar****/
+.searchbar {
+  text-align: center;
+}
+.searchbar input {
+  padding: 14px 16px;
+  width: 800px;
+  border-radius: 20px;
+}
+/**style of the card that takes the product***/
+.kolhom {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  background-color: aliceblue;
+  padding: 10px;
+  justify-self: center;
+  justify-items: center;
+  justify-content: center;
+}
+
+.kolhom > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+}
+
+.shop-item-image {
+  height: 250px;
+}
+
+.shop-items {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: 30px;
+}
+
+.shop-item-details {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+}
+
+.shop-item-price {
+  flex-grow: 1;
+  color: #333;
+}
+
+.shop-item-title {
+  display: block;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+/******** style the button ********/
+
+.button {
+  background-color: #000;
+  border: 1px solid #000;
+  border-radius: 4px;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 14px;
+  margin: 0 5px 10px 0;
+  overflow: visible;
+  padding: 5px 40px;
+  text-align: center;
+
+  vertical-align: middle;
+  margin-top: 20px;
+  margin-left: 10%;
+}
+
+/****image home ******/
+.bghome {
+  margin-top: 1%;
+  border-radius: 20px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2%;
+}
+/*********/
+.newarival {
+  border-top: 2px solid black;
+}
+.newarivall {
+  text-align: center;
+}
+
+.parag {
+  text-align: center;
+  font-size: larger;
+  font-style: italic;
+}
